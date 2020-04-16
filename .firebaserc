@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wikisearch-8869c": {
+      "hosting": {
+        "wikiSearch": [
+          "wikisearch-8869c"
+        ]
+      }
+    }
+  }
+}

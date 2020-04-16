@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "wikiSearch": {
@@ -117,8 +117,16 @@
               "devServerTarget": "wikiSearch:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "wikiSearch"
+    }
+  },
+  "defaultProject": "wikiSearch",
+  "cli": {
+    "analytics": "af7109d6-2a65-4952-902f-5edfca384707"
+  }
 }
